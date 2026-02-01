@@ -56,7 +56,7 @@
 
 - 若输入或输出文件夹位于网络位置等IIS无权限的位置，则需要：
   1. 设置 `appsettings.json`中的 `InputDirAccessable`和/或 `OutputDirAccessable`为 `false`，告知程序无权限访问，那么后端将通过Host对文件进行访问。
-  2. 这种模式下，HTTP上传和下载功能将不可用（可以实现，但暂未实现）。
+  2. 这种模式下，HTTP上传和下载功能将不可用。
 
 ### 运行Windows客户端版本
 
