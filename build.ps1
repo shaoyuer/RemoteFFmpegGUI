@@ -15,7 +15,7 @@ try {
     Write-Output "请确保："
     Write-Output "已经安装npm（Node.JS）"
     Write-Output "已经安装.NET 10 SDK"
-    Write-Output "已经将ffmpeg相关二进制文件、MediaInfo.dll、性能测试视频（若需要）放置到./bin中"
+    Write-Output "已经将ffmpeg相关二进制文件、MediaInfo.exe、性能测试视频（若需要）放置到./bin中"
 
     pause
     Clear-Host
